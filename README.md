@@ -1,35 +1,42 @@
 # Movies Details :movie_camera:
 
-Brief introduction of your project and its purpose.
+Simple React js website to view Movies Details using web Api with Some other features
 
 ## Features
 
-- **Feature 1:** Description of feature 1.
-- **Feature 2:** Description of feature 2.
-- **Feature 3:** Description of feature 3.
+- **Login / SignUp:**  what every user see first is SignUp page and it should fill the all inputs to Register  , if user Regiser successfully all it's information Sent up to Database and Save it's login In session to keep the user Login.
+- if the user already signed up then it should fill it's information , when user click login the app checks if user exist or not and return Login message bellow the page if it's allowed to redirect or there is an error .
+
+
+
+- **Movies Carousel:** the app is getting the last Movies list from MovieDb Api and store it in state and display them in carousel of the movies , with it's backrround and title and Rate average , also a button to see more details.
+- 
+- **Movie Bookmark:** if a user liked a some movies and he wanted to save them  , then he should just click on 'Add to watch List' that will lead to store Movie information in database and display them in favorite page and user can see all his saved Movies.
+- he can Also unsave a movie with the same Button.
+
+- **Profile:** this is the easiest part of the project I used redux to keep user information in whole app and display it for user if he clicks in the profile butto , with logout button to redirect user to Login Page.
+
+- **flexibility** the website is compatible with all screens => it's responsive .
 
 ## Installation
 
-Instructions on how to install and run your project. This should include any dependencies, environment setup, and steps to get started with the project.
-
-## Usage
-
-Instructions on how to use your project. This should include any command line interface or user interface instructions, as well as examples of how to use the project in practice.
-
-## Contributing
-
-Guidelines for contributors, including how to report bugs, request new features, and contribute to the project.
-
-## License
-
-The license under which your project is released. This should include any open-source or proprietary licensing details.
+the website is not complicated , it's regular and easy to user if the signup is not working then please change the browser.
 
 ## Contact
 
-How users can get in touch with you, including email address, social media links, or other contact information.
+for contact , u can use message sender in my portfolio below.
 
 ## Acknowledgements
 
-Any acknowledgements for contributors, libraries, or resources that were used to create the project.
+Tools and languages used in this app : 
 
-You can customize this template to fit your own project, and include additional sections or details as needed. Just make sure to provide enough information for users to understand and use your project effectively.
+- React jS (vite js Bundle)
+- MovieDb Api (free plan)
+- firebase Real-time-Database
+- firebase email and password AUTH
+- framer Motion (animation framework)
+- Html & Scss & (Jsx Syntax)
+- Redux Toolkit (keeping State Saved)
+- Font Awesome (free plan for Icons)
+
+I wish the website is friendly usable and there is no error if so then send them in email please.
