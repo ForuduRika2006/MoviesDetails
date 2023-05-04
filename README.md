@@ -1,7 +1,6 @@
 # Movies Details :movie_camera:
 
-Simple React js website to view Movies Details using web Api with Some other features
--Screen Shot from of the Home Page : 
+Simple React js website to view Movies Details using web Api with Some other features , Screen Shot from of the Home Page : 
 
 ![Capture](https://user-images.githubusercontent.com/130691762/236085656-db2b674b-9efe-418d-a12d-74bdb0971c6a.PNG)
 
